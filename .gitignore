@@ -1,0 +1,8 @@
+# Ignore node_modules directory
+**/node_modules
+
+# Ignore Python's __pycache__ directory
+**/__pycache__
+
+# Ignore Rust's target directory
+**/target
