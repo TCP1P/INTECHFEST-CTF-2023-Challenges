@@ -1,0 +1,5 @@
+VWA-Wazuh(Series)
+
+Original source: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/forensic/VWA-Wazuh%28Series%29
+
+Local archive note: no player attachment files were present.

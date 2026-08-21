@@ -1,0 +1,122 @@
+{
+  "sourceRepository": "TCP1P/INTECHFEST-CTF-2023-Challenges",
+  "targetRepository": "TCP1P/INTECHFEST-CTF-2023-Challenges",
+  "private": false,
+  "events": [
+    "INTECHFEST CTF 2023"
+  ],
+  "challenges": [
+    {
+      "name": "VWA-Wazuh(Series)",
+      "category": "Forensics",
+      "source": "forensic/VWA-Wazuh(Series)/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/forensic/VWA-Wazuh%28Series%29",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Forensics/vwa-wazuh-series/challenge.yaml"
+    },
+    {
+      "name": "no-connection",
+      "category": "Misc",
+      "source": "misc/no-connection/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/misc/no-connection",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Misc/no-connection/challenge.yaml"
+    },
+    {
+      "name": "useless-piton",
+      "category": "Misc",
+      "source": "misc/useless-piton/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/misc/useless-piton",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Misc/useless-piton/challenge.yaml"
+    },
+    {
+      "name": "web-cembly",
+      "category": "Pwn",
+      "source": "pwn/web-cembly/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/pwn/web-cembly",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Pwn/web-cembly/challenge.yaml"
+    },
+    {
+      "name": "APACI",
+      "category": "Web",
+      "source": "web/APACI/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/APACI",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/apaci/challenge.yaml"
+    },
+    {
+      "name": "Intechfest Game Design Competition",
+      "category": "Web",
+      "source": "web/Intechfest Game Design Competition/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Intechfest%20Game%20Design%20Competition",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/intechfest-game-design-competition/challenge.yaml"
+    },
+    {
+      "name": "NOTEIFY",
+      "category": "Web",
+      "source": "web/NOTEIFY/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/NOTEIFY",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/noteify/challenge.yaml"
+    },
+    {
+      "name": "Samehadaku KW",
+      "category": "Web",
+      "source": "web/Samehadaku KW/__synthetic__.yaml",
+      "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Samehadaku%20KW",
+      "type": "StaticAttachment",
+      "warnings": [
+        "metadata synthesized because the archive had no challenge manifest",
+        "missing legacy type converted to StaticAttachment",
+        "flag recovered from the archived challenge tree",
+        "no player attachment files were present"
+      ],
+      "manifest": "Jeopardy/Web/samehadaku-kw/challenge.yaml"
+    }
+  ]
+}

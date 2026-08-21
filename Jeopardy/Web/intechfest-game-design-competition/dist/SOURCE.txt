@@ -1,0 +1,5 @@
+Intechfest Game Design Competition
+
+Original source: https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Intechfest%20Game%20Design%20Competition
+
+Local archive note: no player attachment files were present.

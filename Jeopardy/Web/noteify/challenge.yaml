@@ -1,0 +1,16 @@
+name: NOTEIFY
+author: TCP1P contributors
+description: 'Archived challenge from INTECHFEST CTF 2023.
+
+
+  ---
+
+  Historical archive converted for RSCTF practice. Original service endpoints may no longer be online. [Review the source challenge](https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/NOTEIFY).'
+type: StaticAttachment
+category: Web
+minScoreRate: 0.25
+difficulty: 5
+disableBloodBonus: false
+flags:
+- INTECHFEST{dd3e8d3a9da4b3399b126f00b534b530be47aa40e280583a6b1f20ebdbfce101}
+provide: dist
