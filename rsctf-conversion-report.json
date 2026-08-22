@@ -12,9 +12,10 @@
       "source": "forensic/VWA-Wazuh(Series)/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/forensic/VWA-Wazuh%28Series%29",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -26,9 +27,10 @@
       "source": "misc/no-connection/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/misc/no-connection",
       "type": "StaticAttachment",
+      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -39,14 +41,17 @@
       "category": "Misc",
       "source": "misc/useless-piton/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/misc/useless-piton",
-      "type": "StaticAttachment",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "portable single-service Docker runtime promoted from 'missing' to DynamicContainer",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "generated per-team flag template 'INTECHFEST{useless_piton___________________[TEAM_HASH]}'",
+        "dynamic flag delivery uses the legacy Compose flag file adapter",
+        "dynamic runtime compatibility rewrote 1 archived flag occurrence(s)"
       ],
-      "manifest": "Jeopardy/Misc/useless-piton/challenge.yaml"
+      "manifest": "Jeopardy/Misc/useless-piton-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "web-cembly",
@@ -54,9 +59,10 @@
       "source": "pwn/web-cembly/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/pwn/web-cembly",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -68,9 +74,10 @@
       "source": "web/APACI/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/APACI",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -82,9 +89,10 @@
       "source": "web/Intechfest Game Design Competition/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Intechfest%20Game%20Design%20Competition",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -96,9 +104,10 @@
       "source": "web/NOTEIFY/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/NOTEIFY",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
@@ -110,9 +119,10 @@
       "source": "web/Samehadaku KW/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Samehadaku%20KW",
       "type": "StaticAttachment",
+      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type converted to StaticAttachment",
+        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
         "no player attachment files were present"
       ],
