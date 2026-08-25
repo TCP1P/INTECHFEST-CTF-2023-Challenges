@@ -10,7 +10,13 @@ const CONFIG = {
     APPLIMIT: Number(process.env['APPLIMIT'] || "5"),
 }
 
-console.table(CONFIG)
+console.log("Bot configuration loaded", {
+    APPNAME: CONFIG.APPNAME,
+    APPURL: CONFIG.APPURL,
+    APPURLREGEX: CONFIG.APPURLREGEX,
+    APPLIMITTIME: CONFIG.APPLIMITTIME,
+    APPLIMIT: CONFIG.APPLIMIT,
+})
 
 const initBrowser = puppeteer.launch({
     executablePath: process.env['PUPPETEER_EXECUTABLE_PATH'] || "/usr/bin/chromium-browser",
