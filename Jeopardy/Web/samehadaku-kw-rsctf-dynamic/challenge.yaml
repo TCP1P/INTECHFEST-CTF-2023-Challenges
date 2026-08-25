@@ -1,0 +1,20 @@
+name: Samehadaku KW
+author: TCP1P contributors
+description: |-
+  Start an isolated instance of the original archive-upload and video service.
+
+  The flag filename remains randomized inside each immutable image while its value is unique to your team instance.
+
+  ---
+  Historical challenge converted from [INTECHFEST CTF 2023](https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Samehadaku%20KW).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{samehadaku_kw___________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 256
+  cpuCount: 1
+  exposePort: 8000
+  enableTrafficCapture: false

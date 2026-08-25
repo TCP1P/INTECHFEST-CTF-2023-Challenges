@@ -12,11 +12,12 @@
       "source": "forensic/VWA-Wazuh(Series)/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/forensic/VWA-Wazuh%28Series%29",
       "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "runtimeReason": "The archive requires nine coupled Wazuh, OpenSearch, proxy, database, attacker, and vulnerable-application services with privileged/systemd/ulimit behavior; the production DynamicContainer backend supports one service per team instance",
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
         "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
+        "retained as an archived static challenge because flattening this stack would change its behavior and exceed the event's resource budget",
         "no player attachment files were present"
       ],
       "manifest": "Jeopardy/Forensics/vwa-wazuh-series/challenge.yaml"
@@ -26,15 +27,16 @@
       "category": "Misc",
       "source": "misc/no-connection/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/misc/no-connection",
-      "type": "StaticAttachment",
-      "runtimeReason": "Compose declares 2 services; the production Docker backend supports one service per DynamicContainer",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "MongoDB and the restricted curl TCP shell were consolidated into one bounded instance",
+        "generated a per-team dynamic flag template and runtime database seed",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Misc/no-connection/challenge.yaml"
+      "manifest": "Jeopardy/Misc/no-connection-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "useless-piton",
@@ -58,75 +60,80 @@
       "category": "Pwn",
       "source": "pwn/web-cembly/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/pwn/web-cembly",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "nginx, the WebAssembly frontend, and the Chromium report bot were consolidated into one bounded instance",
+        "generated a per-team dynamic flag template for the bot environment",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Pwn/web-cembly/challenge.yaml"
+      "manifest": "Jeopardy/Pwn/web-cembly-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "APACI",
       "category": "Web",
       "source": "web/APACI/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/APACI",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "Apache/PHP, MariaDB, the internal helper bot, and PDF tooling were consolidated into one bounded instance",
+        "generated a per-team dynamic flag template and runtime flag file",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Web/apaci/challenge.yaml"
+      "manifest": "Jeopardy/Web/apaci-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Intechfest Game Design Competition",
       "category": "Web",
       "source": "web/Intechfest Game Design Competition/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Intechfest%20Game%20Design%20Competition",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "the original Rocket application and setuid readflag helper were packaged as one bounded instance",
+        "generated a per-team dynamic flag template and runtime readflag target",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Web/intechfest-game-design-competition/challenge.yaml"
+      "manifest": "Jeopardy/Web/intechfest-game-design-competition-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "NOTEIFY",
       "category": "Web",
       "source": "web/NOTEIFY/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/NOTEIFY",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "the Svelte frontend, Go/SQLite API, nginx, and Chromium report bot were consolidated into one bounded instance",
+        "generated per-team bot credentials from the dynamic flag without logging them",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Web/noteify/challenge.yaml"
+      "manifest": "Jeopardy/Web/noteify-rsctf-dynamic/challenge.yaml"
     },
     {
       "name": "Samehadaku KW",
       "category": "Web",
       "source": "web/Samehadaku KW/__synthetic__.yaml",
       "sourceUrl": "https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Samehadaku%20KW",
-      "type": "StaticAttachment",
-      "runtimeReason": "Docker context exceeds the portable size/file limits or contains a symlink",
+      "type": "DynamicContainer",
+      "runtimeReason": null,
       "warnings": [
         "metadata synthesized because the archive had no challenge manifest",
-        "missing legacy type imported as StaticAttachment",
         "flag recovered from the archived challenge tree",
-        "no player attachment files were present"
+        "the FastAPI archive-upload and video service was packaged as one bounded instance",
+        "generated a per-team dynamic flag while retaining the randomized in-container filename",
+        "replacement manifest path preserves immutable solve evidence on the archived static row"
       ],
-      "manifest": "Jeopardy/Web/samehadaku-kw/challenge.yaml"
+      "manifest": "Jeopardy/Web/samehadaku-kw-rsctf-dynamic/challenge.yaml"
     }
   ]
 }

@@ -1,0 +1,20 @@
+name: web-cembly
+author: TCP1P contributors
+description: |-
+  WebAssembly and an administrator browser bot are waiting behind one instance endpoint.
+
+  Start an instance, inspect the application, then submit the bot URL through `/report/`.
+
+  ---
+  Historical challenge converted from [INTECHFEST CTF 2023](https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/pwn/web-cembly).
+type: DynamicContainer
+category: Pwn
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{web_cembly______________________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 1
+  exposePort: 80
+  enableTrafficCapture: false

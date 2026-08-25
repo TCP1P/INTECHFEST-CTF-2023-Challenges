@@ -1,0 +1,20 @@
+name: Intechfest Game Design Competition
+author: TCP1P contributors
+description: |-
+  The original Rocket application, templates, upload behavior, and read-flag helper now run in an isolated team instance.
+
+  Start an instance and interact with the exposed web service.
+
+  ---
+  Historical challenge converted from [INTECHFEST CTF 2023](https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/Intechfest%20Game%20Design%20Competition).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{intechfest_game_design_competiti[TEAM_HASH]}
+container:
+  memoryLimit: 256
+  cpuCount: 1
+  exposePort: 80
+  enableTrafficCapture: false

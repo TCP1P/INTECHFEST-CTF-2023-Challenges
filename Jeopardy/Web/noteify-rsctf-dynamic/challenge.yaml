@@ -1,0 +1,20 @@
+name: NOTEIFY
+author: TCP1P contributors
+description: |-
+  The Noteify frontend, API, SQLite database, and administrator browser bot run together in one isolated instance.
+
+  Start an instance; the report endpoint is available under `/report` on the same service.
+
+  ---
+  Historical challenge converted from [INTECHFEST CTF 2023](https://github.com/TCP1P/INTECHFEST-CTF-2023-Challenges/tree/main/web/NOTEIFY).
+type: DynamicContainer
+category: Web
+minScoreRate: 0.01
+difficulty: 5
+disableBloodBonus: true
+flagTemplate: INTECHFEST{noteify_________________________________________[TEAM_HASH]}
+container:
+  memoryLimit: 512
+  cpuCount: 1
+  exposePort: 80
+  enableTrafficCapture: false
